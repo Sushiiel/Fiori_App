@@ -66,9 +66,11 @@ An SAP Fiori application.
 ```
 ## Screenshots and Demo
 
-![App Screenshot](./images/app-screenshot.png)
+![App Screenshot](./images/Image1)
+![App Screenshot](./images/Image2)
+![App Screenshot](./images/Image3)
 
-![Demo GIF](./images/app-demo.gif)
+![Demo GIF](./images/GIF.gif)
 #### Pre-requisites:
 
 1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
