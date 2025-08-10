@@ -14,8 +14,12 @@ A SAPUI5 / Fiori application integrated with SAP S/4HANA backend via OData servi
 - Responsive and modular UI using XML Views and MVC pattern  
 
 ---
+## Screenshots and GIF
+![App Screenshot](./images/Image1.png)
+![App Screenshot](./images/Image2.png)
+![App Screenshot](./images/Image3.png)
 
-
+![Demo GIF](./images/GIF.gif)
 
 ## Getting Started
 
@@ -64,11 +68,7 @@ An SAP Fiori application.
 ```
     npm run start-mock
 ```
-![App Screenshot](./images/Image1.png)
-![App Screenshot](./images/Image2.png)
-![App Screenshot](./images/Image3.png)
 
-![Demo GIF](./images/GIF.gif)
 
 #### Pre-requisites:
 
