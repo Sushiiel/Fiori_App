@@ -64,13 +64,12 @@ An SAP Fiori application.
 ```
     npm run start-mock
 ```
-## Screenshots and Demo
-
-![App Screenshot](./images/Image1)
-![App Screenshot](./images/Image2)
-![App Screenshot](./images/Image3)
+![App Screenshot](./images/Image1.png)
+![App Screenshot](./images/Image2.png)
+![App Screenshot](./images/Image3.png)
 
 ![Demo GIF](./images/GIF.gif)
+
 #### Pre-requisites:
 
 1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
