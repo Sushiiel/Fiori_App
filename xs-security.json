@@ -1,0 +1,17 @@
+{
+  "xsappname": "project1-${space}",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.Display",
+      "description": "Display UI5 applications"
+    }
+  ],
+  "role-templates": [
+    {
+      "name": "Viewer",
+      "description": "View HTML5 content",
+      "scope-references": ["$XSAPPNAME.Display"]
+    }
+  ]
+}

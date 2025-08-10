@@ -1,0 +1,6 @@
+---
+applications:
+  - name: project1-ui5
+    path: dist
+    buildpack: staticfile_buildpack
+    memory: 64M

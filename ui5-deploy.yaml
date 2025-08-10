@@ -1,0 +1,25 @@
+specVersion: '2.6'
+type: application
+metadata:
+  name: project1
+
+builder:
+  customTasks:
+    - name: ui5-task-nwabap-deployer
+      afterTask: generateVersionInfo
+      configuration:
+        connection:
+          server: https://sapes5.sapdevcenter.com
+          client: "002"
+          useStrictSSL: false
+        authentication:
+          user: P2009515547
+          password: 'fqt5c9mf6ayw'
+        ui5:
+          package: "$TMP"
+          bspContainer: ZPROJECT1
+          bspContainerText: "Project1 Deployment"
+          transportNo: ""
+          language: EN
+          deploy: true
+          calcAppIndex: true

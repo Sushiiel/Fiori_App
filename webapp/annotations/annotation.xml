@@ -1,0 +1,23 @@
+<Annotations Target="ProductSet">
+  <Annotation Term="UI.LineItem">
+    <Collection>
+      <Record Type="UI.DataField">
+        <PropertyValue Property="Value" Path="ProductId"/>
+        <PropertyValue Property="Label" String="Product ID"/>
+      </Record>
+      <Record Type="UI.DataField">
+        <PropertyValue Property="Value" Path="Name"/>
+        <PropertyValue Property="Label" String="Name"/>
+      </Record>
+      <Record Type="UI.DataField">
+        <PropertyValue Property="Value" Path="Category"/>
+        <PropertyValue Property="Label" String="Category"/>
+      </Record>
+    </Collection>
+  </Annotation>
+  <Annotation Term="Org.OData.Capabilities.V1.SortRestrictions">
+    <Record>
+      <PropertyValue Property="Sortable" Bool="true"/>
+    </Record>
+  </Annotation>
+</Annotations>

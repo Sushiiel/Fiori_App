@@ -1,0 +1,39 @@
+ID: project1
+_schema-version: "3.2"
+version: 1.0.0
+
+modules:
+  - name: project1-approuter
+    type: approuter.nodejs
+    path: approuter
+    parameters:
+      disk-quota: 256M
+      memory: 128M
+    requires:
+      - name: project1-html5-repo-runtime
+      - name: project1-html5-repo-host   # <--- add this line
+
+  - name: project1-ui5
+    type: html5
+    path: dist
+    build-parameters:
+      builder: custom
+      commands:
+        - npm install
+        - npm run build
+    requires:
+      - name: project1-html5-repo-host
+
+
+resources:
+  - name: project1-html5-repo-host
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-plan: app-host
+
+  - name: project1-html5-repo-runtime
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: html5-apps-repo
+      service-plan: app-runtime
