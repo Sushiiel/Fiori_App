@@ -23,6 +23,5 @@ A SAPUI5 / Fiori application integrated with SAP S/4HANA backend via OData servi
 
 
 
-![App Screenshot](./images/app-screenshot.png)
 
 ![Demo GIF](./images/app-demo.gif)
